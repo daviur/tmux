@@ -1,0 +1,6 @@
+[submodule "plugins/tpm"]
+	path = plugins/tpm
+	url = git@github.com:tmux-plugins/tpm.git
+[submodule "plugins/tmux-gitbar"]
+	path = plugins/tmux-gitbar
+	url = git@github.com:arl/tmux-gitbar.git
