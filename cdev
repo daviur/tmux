@@ -1,4 +1,7 @@
-selectp -t 0			# Select pane 0
+selectp -t 0			    # Select pane 0
 send-keys '$EDITOR' Enter	# Open editor
-splitw -v -p 15 		# Split pane 0 horizontally by 25%
-selectp -t 0 			# Select pane 0
+splitw -v -p 15 		    # Split pane 0 horizontally by 25%
+splitw -h                   # Split pane 1 vertically
+selectp -t 0 			    # Select pane 0
+send-keys -t 1 "PS1='\$ ';clear" Enter
+send-keys -t 2 "PS1='\$ ';clear" Enter
